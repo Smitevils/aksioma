@@ -1,3 +1,3 @@
-<div class="width-center-block">
+<header class="width-center-block">
 	sefdsf
-</div>
+</header>

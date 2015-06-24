@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* variables */
 /* variables */
-div, ul, li, ul, li, h1, h2, p, a {
+div, ul, li, ul, li, h1, h2, p, a, header {
   outline: 1px red solid; }
 
 .clear {
@@ -59,6 +59,9 @@ img {
 /* ╨║╨╗╨░╤Б╤Б ╨╖╨░╨┤╨░╨╡╤В ╤И╨╕╤А╨╕╨╜╤Г ╨╛╤Б╨╜╨╛╨▓╨╜╨╛╨│╨╛ ╨║╨╛╨╜╤В╨╡╨╜╤В╨░ - ╤В╤П╨╜╨╡╤В╤Б╤П ╨╜╨░ 100% ╨┐╨╛ ╤И╨╕╤А╨╕╨╜╨╡ */
 .fullwidth-block {
   width: 100%; }
+
+header {
+  height: 180px; }
 
 /* variables */
 @media screen and (max-width: 1060px) {
