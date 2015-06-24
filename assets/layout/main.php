@@ -1,4 +1,3 @@
-<body>
-	dsfgsdgsd
-</body>
-</html>
+<div class="width-center-block">
+	sefdsf
+</div>

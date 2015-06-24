@@ -1,1 +1,34 @@
-body {background-color: #fff;}
+@import 'variables';
+
+div, ul, li, ul, li,h1, h2, p, a {outline: 1px red solid;}
+.clear {outline: 1px blue solid;}
+
+html,body {width: 100%; height: 100%; font-family: "Tahoma",Tahoma,Arial,sans-serif;}
+
+h1 {font-size: 40px;}
+h2 {font-size: 36px;}
+h3 {font-size: 36px;}
+h4 {font-size: 36px;}
+h5 {font-size: 26px;}
+h6 {font-size: 36px;}
+p {font-size: 16px;}
+a {font-size: 16px;}
+
+/* Убираем странный нижний отступ */
+img {vertical-align:bottom;}
+
+/* сбрасываем float'ы */
+.clear {clear: both;}
+
+.clearfix:after {
+content: ".";
+display: block;
+height: 0;
+clear: both;
+visibility: hidden;
+}
+
+/* класс задает ширину основного контента - является адаптивным */
+.width-center-block {width: 1020px; margin: 0 auto;}
+/* класс задает ширину основного контента - тянется на 100% по ширине */
+.fullwidth-block {width: 100%;}
