@@ -1,18 +1,22 @@
 @import 'variables';
 
-div, ul, li, ul, li,h1, h2, p, a, header {outline: 1px red solid;}
+div, ul, li, ul, li,h1, h2, p, a, header, main {outline: 1px red solid;}
 .clear {outline: 1px blue solid;}
 
 html,body {width: 100%; height: 100%; font-family: "Tahoma",Tahoma,Arial,sans-serif;}
 
+h1,h2,h3,h4,h5,h6,p {margin: 0; padding: 0;}
+
 h1 {font-size: 40px;}
-h2 {font-size: 36px;}
-h3 {font-size: 36px;}
-h4 {font-size: 36px;}
+h2 {font-size: 38px;}
+h3 {font-size: 31px;}
+h4 {font-size: 30px;}
 h5 {font-size: 26px;}
-h6 {font-size: 36px;}
-p {font-size: 16px;}
+h6 {font-size: 24px;}
+p {font-size: 18px;}
 a {font-size: 16px;}
+
+span {font-weight: bold;}
 
 /* Убираем странный нижний отступ */
 img {vertical-align:bottom;}
@@ -32,3 +36,12 @@ visibility: hidden;
 .width-center-block {width: 1020px; margin: 0 auto;}
 /* класс задает ширину основного контента - тянется на 100% по ширине */
 .fullwidth-block {width: 100%;}
+
+/* кнопки */
+.buttont-1 {
+	width: 176px; height: 24px; line-height: 22px; text-align: center; color: $font-color-3-1;
+	background: url(../img/icons/btn-1.png) no-repeat; background-size: 176px 72px; cursor: pointer;
+	margin: 6px 0; background-position: 0px 0px;
+	&:hover {background-position: 0 -24px;}
+	&:active {background-position: 0 -48px;}
+}
