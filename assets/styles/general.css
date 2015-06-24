@@ -136,13 +136,32 @@ header {
   float: right;
   width: 300px;
   height: 716px;
+  text-align: center;
   background: url(../img/key-bg.png) no-repeat;
   background-size: 100% 100%; }
-  .key-block .key-block {
-    width: 100%;
+  .key-block h3 {
+    line-height: 30px; }
+  .key-block .key-block-head {
+    width: 230px;
     height: 120px;
     background: url(../img/key-head-bg.png) no-repeat;
-    background-size: 100% 100%; }
+    background-size: 100% 100%;
+    color: #fff;
+    padding-top: 22px;
+    padding-left: 35px;
+    padding-right: 35px; }
+  .key-block .warranty {
+    width: 132px;
+    height: 127px;
+    background: url(../img/warranty.png) no-repeat;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 18px; }
+  .key-block a {
+    color: #ff0000;
+    font-size: 22px;
+    margin: 10px 0;
+    display: inline-block; }
 
 /* variables */
 @media screen and (max-width: 1060px) {

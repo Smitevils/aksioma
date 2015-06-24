@@ -21,9 +21,11 @@
 </header>
 <main class="width-center-block">
 	<div class="key-block">
-		<div class="key-block">
-			<h1>Натяжные потолки</h1>
-			<h2>«под ключ»</h2>
+		<div class="key-block-head">
+			<h3>Натяжные потолки</h3>
+			<h4>«под ключ»</h4>
 		</div>
+		<div class="warranty"></div>
+		<a href="#">железная гарантия<br>на все услуги!</a>
 	</div>
 </main>

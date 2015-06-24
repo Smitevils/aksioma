@@ -28,10 +28,18 @@ header {
 main {}
 
 .key-block {
-	float: right; width: 300px; height: 716px;
+	float: right; width: 300px; height: 716px; text-align: center;
 	background: url(../img/key-bg.png) no-repeat; background-size: 100% 100%;
-	.key-block {
-		width: 100%; height: 120px;
+	h3 {line-height: 30px;}
+	.key-block-head {
+		width: 230px; height: 120px;
 		background: url(../img/key-head-bg.png) no-repeat; background-size: 100% 100%;
+		color: $font-color-3-1;
+		padding-top: 22px; padding-left: 35px; padding-right: 35px;
 	}
+	.warranty {
+		width: 132px; height: 127px; background: url(../img/warranty.png) no-repeat;
+		background-size: 100% 100%; margin: 0 auto; margin-top: 18px;
+	}
+	a {color: $font-color-1-1; font-size: 22px; margin: 10px 0; display: inline-block;}
 }
