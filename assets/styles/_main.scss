@@ -1,3 +1,5 @@
+.clear {clear: both;}
+
 header {
 	height: 180px; background: url(../img/label-header.jpg) no-repeat; background-position: 600px 0;
 	.header-logo-block {
@@ -28,7 +30,7 @@ header {
 main {}
 
 .key-block {
-	float: right; width: 300px; height: 716px; text-align: center;
+	float: right; width: 300px; min-height: 716px; text-align: center; padding-bottom: 20px;
 	background: url(../img/key-bg.png) no-repeat; background-size: 100% 100%;
 	h3 {line-height: 30px;}
 	.key-block-head {
@@ -42,4 +44,32 @@ main {}
 		background-size: 100% 100%; margin: 0 auto; margin-top: 18px;
 	}
 	a {color: $font-color-1-1; font-size: 22px; margin: 10px 0; display: inline-block;}
+	.red-label-1 {
+		padding: 20px 10px;
+		color: $font-color-3-1; background: url(../img/red-lable-1.png) no-repeat left center; background-size: 100% 100%;
+	}
+	p {color: $font-color-6-1; font-size: 20px; padding: 20px 30px 10px 30px; text-align: left;}
+	.block-stars {
+		p {padding: 6px; text-align: center;}
+		.stars-1 {
+			display: inline-block; background: url(../img/icons/star-micro.png);
+			width: 16px; height: 16px; background-size: 16px 16px;
+		}
+		.stars-3 {
+			display: inline-block; background: url(../img/icons/star-micro.png);
+			width: 48px; height: 16px; background-size: 16px 16px;
+		}
+		.stars-5 {
+			display: inline-block; background: url(../img/icons/star-micro.png);
+			width: 80px; height: 16px; background-size: 16px 16px;
+		}
+	}
+	input {
+		padding: 2px 6px; border: 1px dashed #999; margin: 4px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		-ms-border-radius: 3px;
+		-o-border-radius: 3px;
+		border-radius: 3px;
+	}
 }

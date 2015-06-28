@@ -27,5 +27,17 @@
 		</div>
 		<div class="warranty"></div>
 		<a href="#">железная гарантия<br>на все услуги!</a>
+		<div class="red-label-1">
+			<h3>Бесплатный экспресс – замер</h3>
+		</div>
+		<p>Получите просчет сразу в трех вариантах:</p>
+		<div class="block-stars">
+			<p>Эконом<div class="stars-1"></div></p>
+			<p>Страндарт<div class="stars-3"></div></p>
+			<p>Vip<div class="stars-5"></div></p>
+		</div>
+		<input type="text" placeholder="Имя">
+		<input type="text" placeholder="Телефон">
+		<div class="buttont-2">Отправить<br>заявку сейчас</div>
 	</div>
 </main>

@@ -45,3 +45,10 @@ visibility: hidden;
 	&:hover {background-position: 0 -24px;}
 	&:active {background-position: 0 -48px;}
 }
+.buttont-2 {
+	width: 187px; height: 59px; text-align: center; color: $font-color-3-1;
+	background: url(../img/icons/btn-2.png) no-repeat; background-size: 187px 177px; cursor: pointer;
+	margin: 6px 0; background-position: 0px 0px;
+	&:hover {background-position: 0 -59px;} font-size: 22px; display: inline-block;
+	&:active {background-position: 0 -118px;}
+}
