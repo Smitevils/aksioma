@@ -20,6 +20,21 @@
 	<div class="clear"></div>
 </header>
 <main class="width-center-block">
+	<div class="countdown-block">
+		<div class="countdown-slider"></div>
+		<div class="countdown-bg"></div>
+		<div class="slider-buttons">
+			<ul>
+				<li class="active"></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+		<div class="buttont-3">Вызвать замерщика</div>
+		<div class="text-under-button-3">
+			*Бесплатный экспресс-замер, вы получите расчест стоимости сразу в трех вариантах
+		</div>
+	</div>
 	<div class="key-block">
 		<div class="key-block-head">
 			<h3>Натяжные потолки</h3>
@@ -39,5 +54,8 @@
 		<input type="text" placeholder="Имя">
 		<input type="text" placeholder="Телефон">
 		<div class="buttont-2">Отправить<br>заявку сейчас</div>
+	</div>
+	<div class="minibanners-block">
+		<div class="mini-banner-block"></div>
 	</div>
 </main>
