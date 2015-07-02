@@ -56,6 +56,76 @@
 		<div class="buttont-2">Отправить<br>заявку сейчас</div>
 	</div>
 	<div class="minibanners-block">
-		<div class="mini-banner-block"></div>
+		<!-- === -->
+		<div class="mini-banner-block">
+			<div class="mini-banner-block-icon-1"></div>
+			<div class="mini-banner-block-text">
+				<div class="table">
+					<div class="table-cell">
+						<p>Время выезда замерщика</p>
+						<h4>2 часа</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- === -->
+		<div class="mini-banner-block">
+			<div class="mini-banner-block-icon-2"></div>
+			<div class="mini-banner-block-text">
+				<div class="table">
+					<div class="table-cell">
+						<p>Гарантия на потолки</p>
+						<h4>10 лет</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- === -->
+		<div class="mini-banner-block">
+			<div class="mini-banner-block-icon-3"></div>
+			<div class="mini-banner-block-text">
+				<div class="table">
+					<div class="table-cell">
+						<p>У нас работают только</p>
+						<h4>профи</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- === -->
+		<div class="mini-banner-block">
+			<div class="mini-banner-block-icon-4"></div>
+			<div class="mini-banner-block-text">
+				<div class="table">
+					<div class="table-cell">
+						<h5>Лучшие цены</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- === -->
+		<div class="mini-banner-block">
+			<div class="mini-banner-block-icon-5"></div>
+			<div class="mini-banner-block-text">
+				<div class="table">
+					<div class="table-cell">
+						<h5>100% качество полотен</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- === -->
+		<div class="mini-banner-block">
+			<div class="mini-banner-block-icon-6"></div>
+			<div class="mini-banner-block-text">
+				<div class="table">
+					<div class="table-cell">
+						<p>Сервисное обслуживание на 1 год</p>
+						<h5>2 часа</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- === -->
 	</div>
 </main>
