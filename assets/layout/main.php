@@ -274,6 +274,119 @@
 			</div>
 		</div>
 		<div class="clear"></div>
+		<div class="seven-reason-bid-block">
+			<div class="seven-reason-bottom-text">Запешитесь прямо сейчас, мы перезвоним вам и обязательно подберем лучшее решение для вас!</div>
+			<div class="seven-reason-bid">
+				<input type="text" placeholder="Имя">
+				<input type="text" placeholder="Телефон">
+				<div class="buttont-2">Отправить<br>заявку сейчас</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="seven-reason-mini-banners">
+			<!-- === -->
+			<div class="mini-banner-block">
+				<div class="mini-banner-block-icon-1"></div>
+				<div class="mini-banner-block-text">
+					<div class="table">
+						<div class="table-cell">
+							<p>Работаем точно в срок</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- === -->
+			<div class="mini-banner-block">
+				<div class="mini-banner-block-icon-2"></div>
+				<div class="mini-banner-block-text">
+					<div class="table">
+						<div class="table-cell">
+							<p>Рассрочка</p>
+							<h4>Без процентов</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- === -->
+			<div class="mini-banner-block">
+				<div class="mini-banner-block-icon-3"></div>
+				<div class="mini-banner-block-text">
+					<div class="table">
+						<div class="table-cell">
+							<p>Гарантия на работу</p>
+							<h4>1 год</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- === -->
+			<div class="mini-banner-block">
+				<div class="mini-banner-block-icon-4"></div>
+				<div class="mini-banner-block-text">
+					<div class="table">
+						<div class="table-cell">
+							<p>Сервисное обслуживание на 1 год</p>
+							<h4>бесплатно</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
 	</div>
 </div>
 </main>
+<footer>
+	<div class="width-center-block footer">
+		<h2>Нам доверяют:</h2>
+		<ul>
+			<li><img src="assets/img/clients/client-1.png" alt="client"></li>
+			<li><img src="assets/img/clients/client-2.png" alt="client"></li>
+			<li><img src="assets/img/clients/client-3.png" alt="client"></li>
+			<li><img src="assets/img/clients/client-4.png" alt="client"></li>
+			<li><img src="assets/img/clients/client-5.png" alt="client"></li>
+			<li><img src="assets/img/clients/client-6.png" alt="client"></li>
+			<li><img src="assets/img/clients/client-7.png" alt="client"></li>
+		</ul>
+		<div class="footer-content">
+			<div class="footer-content-block">
+				<h2>Контакты</h2>
+				<p>телефоны:</p>
+				<p>(347) 675-36-66</p>
+				<p>8-938-151-17-17</p>
+				<br>
+				<p>адрес:</p>
+				<p>ул. Кирова, 107 (офис 205)</p>
+				<br>
+				<p>эл. почта: <a href="#">potolok102@mail.ru</a></p>
+				<br>
+				<p>Мы работаем <span>с 09:00 до 20:00</span></p>
+				<p>воскресенье выходной</p>
+				</p>
+			</div>
+			<div class="footer-content-block">
+				<h2>Полезное</h2>
+				<a href="#">Сертификаты</a><br>
+				<a href="#">Госты</a><br>
+				<a href="#">Снипы</a><br>
+				<a href="#">СМИ о нас</a><br>
+				<a href="#">Важно знать</a><br>
+			</div>
+			<div class="footer-content-block">
+				<h5>Запись на замер</h5>
+				<input type="text" placeholder="Имя"><br>
+				<input type="text" placeholder="Телефон"><br>
+				<textarea placeholder="Комментарий"></textarea>
+				<div class="buttont-4">Записаться</div>
+			</div>
+			<div class="footer-content-block">
+				<h5>Задать вопрос</h5>
+				<input type="text" placeholder="Имя"><br>
+				<input type="text" placeholder="Телефон"><br>
+				<textarea placeholder="Комментарий"></textarea>
+				<div class="buttont-4">Спросить</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</footer>
