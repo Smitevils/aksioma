@@ -526,12 +526,44 @@ header {
   background: #e5f6ff; }
 
 .seven-reason {
-  padding: 50px 0; }
+  padding: 30px 0; }
   .seven-reason h3 {
     font-size: 30px;
     font-weight: 100;
     color: #08509e;
     padding-right: 300px; }
+  .seven-reason .seven-reason-container-left {
+    float: left;
+    width: 50%; }
+  .seven-reason .seven-reason-container-right {
+    float: right;
+    width: 50%; }
+  .seven-reason .seven-reason-box {
+    padding-left: 110px;
+    padding-right: 30px;
+    margin: 20px 0;
+    min-height: 90px; }
+    .seven-reason .seven-reason-box p {
+      font-size: 14px; }
+    .seven-reason .seven-reason-box h6 {
+      color: #08509e;
+      font-weight: bold;
+      font-size: 16px;
+      padding: 4px 0; }
+  .seven-reason .sr-icon-1 {
+    background: url(../img/icons/icon-10.png) no-repeat left center; }
+  .seven-reason .sr-icon-2 {
+    background: url(../img/icons/icon-11.png) no-repeat left center; }
+  .seven-reason .sr-icon-3 {
+    background: url(../img/icons/icon-3.png) no-repeat left center; }
+  .seven-reason .sr-icon-4 {
+    background: url(../img/icons/icon-1.png) no-repeat left center; }
+  .seven-reason .sr-icon-5 {
+    background: url(../img/icons/icon-4.png) no-repeat left center; }
+  .seven-reason .sr-icon-6 {
+    background: url(../img/icons/icon-6.png) no-repeat left center; }
+  .seven-reason .sr-icon-7 {
+    background: url(../img/icons/icon-12.png) no-repeat left center; }
 
 /* variables */
 /* gradient */

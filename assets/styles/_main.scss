@@ -227,6 +227,20 @@ main {}
 
 .seven-reason-bg {background: $gradient-3;}
 .seven-reason {
-	padding: 50px 0;
+	padding: 30px 0;
 	h3 {font-size: 30px; font-weight: 100; color: $font-color-6-3; padding-right: 300px;}
+	.seven-reason-container-left {float: left; width: 50%;}
+	.seven-reason-container-right {float: right; width: 50%;}
+	.seven-reason-box {
+		padding-left: 110px; padding-right: 30px; margin: 20px 0; min-height: 90px;
+		p {font-size: 14px;}
+		h6 {color: $font-color-6-3; font-weight: bold; font-size: 16px; padding: 4px 0;}
+	}
+	.sr-icon-1 {background: url(../img/icons/icon-10.png) no-repeat left center;}
+	.sr-icon-2 {background: url(../img/icons/icon-11.png) no-repeat left center;}
+	.sr-icon-3 {background: url(../img/icons/icon-3.png) no-repeat left center;}
+	.sr-icon-4 {background: url(../img/icons/icon-1.png) no-repeat left center;}
+	.sr-icon-5 {background: url(../img/icons/icon-4.png) no-repeat left center;}
+	.sr-icon-6 {background: url(../img/icons/icon-6.png) no-repeat left center;}
+	.sr-icon-7 {background: url(../img/icons/icon-12.png) no-repeat left center;}
 }
