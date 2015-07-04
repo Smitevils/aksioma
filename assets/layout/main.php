@@ -14,16 +14,27 @@
 			<p><span>Телефоны:</span></p>
 			<h6><span>8-800-2000-600</span></h6>
 			<h6><span>8(347)675-36-66</span></h6>
-			<div class="buttont-1">Заказать звонок</div>
+			<div id="show-popup-1" class="buttont-1">Заказать звонок</div>
 		</div>
 	</div>
 	<div class="clear"></div>
 </header>
-<main>
+<main class="width-center-block">
 <div class="width-center-block">
 	<div class="countdown-block">
-		<div class="countdown-slider"></div>
-		<div class="countdown-bg"></div>
+		<div class="countdown-slider">
+			<img src="assets/img/slider/slide-1.jpg" alt="slide">
+			<img src="assets/img/slider/slide-2.jpg" alt="slide">
+			<img src="assets/img/slider/slide-3.jpg" alt="slide">
+		</div>
+		<div class="countdown-bg">
+			<!-- <div id="month" class="count-block">10</div> -->
+			<div id="day" class="count-block">10</div>
+			<div id="hour" class="count-block">10</div>
+			<div id="minute" class="count-block">10</div>
+			<div id="seconds" class="count-block">10</div>
+			<div id="CDT"></div>
+		</div>
 		<div class="slider-buttons">
 			<ul>
 				<li class="active"></li>
@@ -31,7 +42,7 @@
 				<li></li>
 			</ul>
 		</div>
-		<div class="buttont-3">Вызвать замерщика</div>
+		<div id="show-popup-2" class="buttont-3">Вызвать замерщика</div>
 		<div class="text-under-button-3">
 			*Бесплатный экспресс-замер, вы получите расчест стоимости сразу в трех вариантах
 		</div>
@@ -52,9 +63,9 @@
 			<div class="stars-wrap">Страндарт<div class="stars-3"></div></div>
 			<div class="stars-wrap">Vip<div class="stars-5"></div></div>
 		</div>
-		<input type="text" placeholder="Имя">
-		<input type="text" placeholder="Телефон">
-		<div class="buttont-2">Отправить<br>заявку сейчас</div>
+		<input type="text" id="name-3" placeholder="Имя">
+		<input type="text" id="phone-3" placeholder="Телефон">
+		<div id="submit-3" class="buttont-2">Отправить<br>заявку сейчас</div>
 	</div>
 	<div class="minibanners-block">
 		<!-- === -->
@@ -135,11 +146,11 @@
 	<!-- === -->
 	<div class="content-menu">
 		<ul>
-			<li><a href="#" class="active">Отзывы</a></li>
-			<li><a href="#">Цены</a></li>
-			<li><a href="#">Портфолио</a></li>
-			<li><a href="#">Сертификаты</a></li>
-			<li><a href="#">Схема работы</a></li>
+			<li><a href="#" data-tab="1" class="active">Отзывы</a></li>
+			<li><a href="#" data-tab="2">Цены</a></li>
+			<li><a href="#" data-tab="3">Портфолио</a></li>
+			<li><a href="#" data-tab="4">Сертификаты</a></li>
+			<li><a href="#" data-tab="5">Схема работы</a></li>
 		</ul>
 	</div>
 	<div class="freebie">
@@ -190,19 +201,412 @@
 					— Белые или цветные полотна
 				</p>
 			</div>
-			<input type="text" placeholder="Имя">
-			<input type="text" placeholder="Телефон">
-			<div class="buttont-2">Отправить<br>заявку сейчас</div>
+			<input type="text" id="name-7" placeholder="Имя">
+			<input type="text" id="phone-7" placeholder="Телефон">
+			<div id="submit-7" class="buttont-2">Отправить<br>заявку сейчас</div>
 			<!--  -->
 		</div>
 	</div>
 	<!-- Основной контент сайта -->
 	<div class="content">
 		<!-- Отзывы -->
-		<div class="content-reviews">
+		<div class="content-reviews content-show">
+			<!-- Отзыв 1 -->
 			<div class="reviews-block">
-				
+				<div class="reviews-block-header">
+					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо.
+					<div class="clear"></div>
+					<ul>
+						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
+					</ul>
+					<div class="triangle-down"></div>
+					<div class="reviews-photo reviews-photo-1"></div>
+				</div>
+				<h6>Хамитова Л. В.</h6>
+				<p>
+					Трехуровневый, бесшевный<br>натяжной потолок.
+				</p>
+				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
+				<h6><span>телефон.:</span> (347) 354-68-95</h6>
 			</div>
+			<!-- Отзыв 2 -->
+			<div class="reviews-block">
+				<div class="reviews-block-header">
+					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо. На следующее утро установили. Cпасибо.
+					<div class="clear"></div>
+					<ul>
+						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
+					</ul>
+					<div class="triangle-down"></div>
+					<div class="reviews-photo reviews-photo-1"></div>
+				</div>
+				<h6>Хамитова Л. В.</h6>
+				<p>
+					Трехуровневый, бесшевный<br>натяжной потолок.
+				</p>
+				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
+				<h6><span>телефон.:</span> (347) 354-68-95</h6>
+			</div>
+			<!-- Отзыв 3 -->
+			<div class="reviews-block">
+				<div class="reviews-block-header">
+					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо. На следующее утро установили. Cпасибо.
+					<div class="clear"></div>
+					<ul>
+						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
+					</ul>
+					<div class="triangle-down"></div>
+					<div class="reviews-photo reviews-photo-1"></div>
+				</div>
+				<h6>Хамитова Л. В.</h6>
+				<p>
+					Трехуровневый, бесшевный<br>натяжной потолок.
+				</p>
+				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
+				<h6><span>телефон.:</span> (347) 354-68-95</h6>
+			</div>
+			<!-- Отзыв 4 -->
+			<div class="reviews-block">
+				<div class="reviews-block-header">
+					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо. На следующее утро установили. Cпасибо.
+					<div class="clear"></div>
+					<ul>
+						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
+						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
+					</ul>
+					<div class="triangle-down"></div>
+					<div class="reviews-photo reviews-photo-1"></div>
+				</div>
+				<h6>Хамитова Л. В.</h6>
+				<p>
+					Трехуровневый, бесшевный<br>натяжной потолок.
+				</p>
+				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
+				<h6><span>телефон.:</span> (347) 354-68-95</h6>
+			</div>
+			<!-- === -->
+			<div class="clear"></div>
+			<div class="cloud">
+				<a href="#" id="show-all-comments">Показать еще отзывы</a>
+			</div>
+		</div>
+		<!-- Цены -->
+		<div class="content-prices content-blur">
+			<h4>Полотно для натяжного потолка</h4>
+			<table>
+				<tr>
+					<th>Фактура полотна</th>
+					<th colspan="5">Стоимость за 1 кв.м.</th>
+				</tr>
+				<tr>
+					<th></th>
+					<th>от 30 м2</th>
+					<th>от 20 м2</th>
+					<th>от 10 м2</th>
+					<th>от 5 м2</th>
+					<th>базовая</th>
+				</tr>
+				<tr>
+					<td class="td-name-title" colspan="6">Россия "ЭкоРос"</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Матовый белый</td>
+					<td>171,00</td>
+					<td>194,00</td>
+					<td>244,00</td>
+					<td>254,00</td>
+					<td>294,00</td>
+				</tr>
+				<tr>
+					<td class="td-name-title" colspan="6">Франция</td>
+				</tr>
+				<tr>
+					<td>Матовый белый, ширина до 2м</td>
+					<td>244,00</td>
+					<td>254,00</td>
+					<td>294,00</td>
+					<td>321,00</td>
+					<td>372,00</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Лаковый белый, ширина до 2м</td>
+					<td>244,00</td>
+					<td>254,00</td>
+					<td>294,00</td>
+					<td>321,00</td>
+					<td>372,00</td>
+				</tr>
+				<tr>
+					<td>Сатин белый, ширина до 2м</td>
+					<td>244,00</td>
+					<td>254,00</td>
+					<td>294,00</td>
+					<td>321,00</td>
+					<td>372,00</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Сатин цветной, ширина до 2м</td>
+					<td>244,00</td>
+					<td>254,00</td>
+					<td>294,00</td>
+					<td>321,00</td>
+					<td>372,00</td>
+				</tr>
+				<!--  -->
+				<tr>
+					<td class="td-name-title" colspan="6">Бельгия</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Матовый белый, ширина до 5м</td>
+					<td>273,00</td>
+					<td>287,00</td>
+					<td>319,00</td>
+					<td>371,00</td>
+					<td>371,00</td>
+				</tr>
+				<tr>
+					<td>Лаковый  белый, ширина до 3,2м</td>
+					<td>311,00</td>
+					<td>321,00</td>
+					<td>361,00</td>
+					<td>409,00</td>
+					<td>409,00</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Лаковый  цветной, ширина до 3,2м</td>
+					<td>331,00</td>
+					<td>336,00</td>
+					<td>369,00</td>
+					<td>418,00</td>
+					<td>418,00</td>
+				</tr>
+				<tr>
+					<td>Сатин белый, ширина до 5м</td>
+					<td>311,00</td>
+					<td>321,00</td>
+					<td>361,00</td>
+					<td>409,00</td>
+					<td>409,00</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Сатин  цветной</td>
+					<td>331,00</td>
+					<td>336,00</td>
+					<td>369,00</td>
+					<td>418,00</td>
+					<td>418,00</td>
+				</tr>
+				<tr>
+					<td>Металлик</td>
+					<td>311,00</td>
+					<td>321,00</td>
+					<td>361,00</td>
+					<td>409,00</td>
+					<td>409,00</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Узоры</td>
+					<td>331,00</td>
+					<td>336,00</td>
+					<td>369,00</td>
+					<td>418,00</td>
+					<td>418,00</td>
+				</tr>
+				<tr>
+					<td>Стиль</td>
+					<td>311,00</td>
+					<td>321,00</td>
+					<td>361,00</td>
+					<td>409,00</td>
+					<td>409,00</td>
+				</tr>
+			</table>
+			<h4>Основные работы</h4>
+			<table class="old-new-price">
+				<tr>
+					<th></th>
+					<th>Старая цена</th>
+					<th>Новая цена</th>
+				</tr>
+				<tr class="gray-table">
+					<td>Монтаж + профиль пластиковый №5</td>
+					<td>171,00</td>
+					<td>194,00</td>
+				</tr>
+				<tr>
+					<td>Лента маскирующая для пластикового профиля</td>
+					<td>100 р.</td>
+					<td>89 р.</td>
+				</tr>
+			</table>
+			<h4>Дополнительные работы</h4>
+			<table class="old-new-price">
+				<tr>
+					<th></th>
+					<th>Старая цена</th>
+					<th>Новая цена</th>
+				</tr>
+				<tr class="gray-table">
+					<td>Обход дополнительных углов (свыше 4-х)</td>
+					<td>230,00</td>
+					<td>150,00</td>
+				</tr>
+				<tr>
+					<td>Обход трубопровода</td>
+					<td>200 р.</td>
+					<td>150 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Установка кольца под люстру</td>
+					<td>230,00</td>
+					<td>110,00</td>
+				</tr>
+				<tr>
+					<td>Установка крепления под  люстру</td>
+					<td>300 р.</td>
+					<td>240 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Установка крепления датчика сигнализации</td>
+					<td>400 р.</td>
+					<td>350 р.</td>
+				</tr>
+				<tr>
+					<td>Установка каркаса под потолочный карнизtd>
+					<td>700 р.</td>
+					<td>600 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Вывод воздуховода</td>
+					<td>330 р.</td>
+					<td>250 р.</td>
+				</tr>
+				<tr>
+					<td>Центровка швов</td>
+					<td>630 р.</td>
+					<td>530 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Слив воды</td>
+					<td>2600 р.</td>
+					<td>2000 р.</td>
+				</tr>
+				<tr>
+					<td>Монтаж потолочного карниза</td>
+					<td>250 р.</td>
+					<td>150 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Прокладка провода (по потолку на клипсах)</td>
+					<td>130 р.</td>
+					<td>90 р.</td>
+				</tr>
+				<tr>
+					<td>Установка платформы для светильника</td>
+					<td>200 р.</td>
+					<td>140 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Монтаж/демонтаж крючковой люстры</td>
+					<td>140 р.</td>
+					<td>110 р.</td>
+				</tr>
+				<tr>
+					<td>Установка платформы для светильника</td>
+					<td>420 р.</td>
+					<td>300 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Монтаж светодиодной ленты</td>
+					<td>590 р.</td>
+					<td>390 р.</td>
+				</tr>
+			</table>
+			<h4>Доплата за работы повышенной сложности</h4>
+			<table class="old-new-price">
+				<tr class="gray-table">
+					<td>Обход кондиционера</td>
+					<td>1300,00</td>
+					<td>990,00</td>
+				</tr>
+				<tr>
+					<td>Сложный монтаж (отсутствие доступа к стенам глубиной до 30 см и высотой до уровня потолка не менее 20 см)</td>
+					<td>250 р.</td>
+					<td>190 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Монтаж профиля по плитке</td>
+					<td>180,00</td>
+					<td>150,00</td>
+				</tr>
+				<tr>
+					<td>Переход потолка в другой уровень по прямой</td>
+					<td>2050 р.</td>
+					<td>1790 р.</td>
+				</tr>
+				<tr class="gray-table">
+					<td>Переход потолка в другой уровень по кривой линии</td>
+					<td>3100,00</td>
+					<td>2490,00</td>
+				</tr>
+			</table>
+			<h4>Прочие работы</h4>
+			<table class="old-new-price">
+				<tr class="gray-table">
+					<td>Дополнительный выезд бригады</td>
+					<td></td>
+					<td>1000,00</td>
+				</tr>
+			</table>
+		</div>
+		<!-- Портфолио -->
+		<div class="content-portfolio content-blur">
+			<img src="assets/img/portfolio/portfolio-1.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-2.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-3.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-4.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-5.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-6.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-7.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-8.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-9.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-10.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-11.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-12.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-13.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-14.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-15.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-16.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-17.jpg" alt="img">
+			<img src="assets/img/portfolio/portfolio-18.jpg" alt="img">
+			<div class="clear"></div>
+		</div>
+		<!-- Ссертификаты -->
+		<div class="content-certificate content-blur">
+			<div class="certificate-board">
+				<img src="assets/img/certificate/certificate-1.jpg" alt="certificate">
+				<img src="assets/img/certificate/certificate-2.jpg" alt="certificate">
+				<img src="assets/img/certificate/certificate-3.jpg" alt="certificate">
+				<img src="assets/img/certificate/certificate-4.jpg" alt="certificate">
+				<div class="clear"></div>
+			</div>
+			<div class="certificate-board">
+				<img src="assets/img/certificate/certificate-5.jpg" alt="certificate">
+				<img src="assets/img/certificate/certificate-6.jpg" alt="certificate">
+				<img src="assets/img/certificate/certificate-7.jpg" alt="certificate">
+				<div class="clear"></div>
+			</div>
+		</div>
+		<!-- Схема работы -->
+		<div class="content-scheme content-blur">
+			<img src="assets/img/scheme.jpg" alt="img">
 		</div>
 	</div>
 	<div class="clear"></div>
@@ -227,7 +631,7 @@
 			<p>Делают заманчивое низкое по цене предложение. Берут предоплату и исчезают. Как правило, ни БЭП, ничего уже не поможет. К сожалению, сейчас это повсеместно.</p>
 		</div>
 		<div class="clear"></div>
-		<h4>Не дайте себя обмануть, <a href="#">заказывайте натяжные потолки у нас!</a></h4>
+		<h4>Не дайте себя обмануть, <a href="#popup-1" class="fancybox">заказывайте натяжные потолки у нас!</a></h4>
 	</div>
 </div>
 <div class="fullwidth-block seven-reason-bg">
@@ -275,11 +679,11 @@
 		</div>
 		<div class="clear"></div>
 		<div class="seven-reason-bid-block">
-			<div class="seven-reason-bottom-text">Запешитесь прямо сейчас, мы перезвоним вам и обязательно подберем лучшее решение для вас!</div>
+			<div class="seven-reason-bottom-text">Запишитесь прямо сейчас, мы перезвоним вам и обязательно подберем лучшее решение для вас!</div>
 			<div class="seven-reason-bid">
-				<input type="text" placeholder="Имя">
-				<input type="text" placeholder="Телефон">
-				<div class="buttont-2">Отправить<br>заявку сейчас</div>
+				<input type="text" id="name-4" placeholder="Имя">
+				<input type="text" id="phone-4" placeholder="Телефон">
+				<div id="submit-4" class="buttont-2">Отправить<br>заявку сейчас</div>
 			</div>
 			<div class="clear"></div>
 		</div>
@@ -336,7 +740,7 @@
 	</div>
 </div>
 </main>
-<footer>
+<footer class="width-center-block">
 	<div class="width-center-block footer">
 		<h2>Нам доверяют:</h2>
 		<ul>
@@ -374,19 +778,43 @@
 			</div>
 			<div class="footer-content-block">
 				<h5>Запись на замер</h5>
-				<input type="text" placeholder="Имя"><br>
-				<input type="text" placeholder="Телефон"><br>
-				<textarea placeholder="Комментарий"></textarea>
-				<div class="buttont-4">Записаться</div>
+				<input type="text" id="name-5" placeholder="Имя"><br>
+				<input type="text" id="phone-5" placeholder="Телефон"><br>
+				<textarea id="text-5" placeholder="Комментарий"></textarea>
+				<div id="submit-5" class="buttont-4">Записаться</div>
 			</div>
 			<div class="footer-content-block">
 				<h5>Задать вопрос</h5>
-				<input type="text" placeholder="Имя"><br>
-				<input type="text" placeholder="Телефон"><br>
-				<textarea placeholder="Комментарий"></textarea>
-				<div class="buttont-4">Спросить</div>
+				<input id="name-6" type="text" placeholder="Имя"><br>
+				<input id="phone-6" type="text" placeholder="Телефон"><br>
+				<textarea id="text-6" placeholder="Комментарий"></textarea>
+				<div id="submit-6" class="buttont-4">Спросить</div>
 			</div>
 			<div class="clear"></div>
 		</div>
 	</div>
 </footer>
+
+<!-- Ссылка на popup -->
+<a class="fancybox" id="popup-link-1" href="#popup-1">Ссылка на POPUP</a>
+<!-- Сам popup -->
+<div id="popup-1">
+	<input type="text" id="name-1" placeholder="Имя">
+	<input type="text" id="phone-1" placeholder="Телефон">
+	<div id="submit-1" class="buttont-2">Отправить<br>заявку сейчас</div>
+</div>
+
+<!-- Ссылка на popup -->
+<a class="fancybox" id="popup-link-2" href="#popup-2">Ссылка на POPUP</a>
+<!-- Сам popup -->
+<div id="popup-2">
+	<input type="text" id="name-2" placeholder="Имя">
+	<input type="text" id="phone-2" placeholder="Телефон">
+	<div id="submit-2" class="buttont-2">Отправить<br>заявку сейчас</div>
+</div>
+
+<!-- Ответ на запрос -->
+<!-- Ссылка на popup -->
+<a class="fancybox" id="feedback-link" href="#feedback-popup">Ссылка на POPUP</a>
+<!-- Сам popup -->
+<div id="feedback-popup"></div>
