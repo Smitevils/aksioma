@@ -1,7 +1,7 @@
 <header class="width-center-block">
 	<div class="header-logo-block">
 		<img src="assets/img/logo-1.png" alt="logo">
-		<p>натяжные потолки в <span>Уфе</span> <a href="#">другой город</a></p>
+		<p>натяжные потолки в <span>Уфе</span> <a href="#popup-3" class="fancybox">другой город</a></p>
 		<p class="star-micro">от производителя за 1 день</p>
 	</div>
 	<div class="header-certificate-block">
@@ -211,87 +211,7 @@
 	<div class="content">
 		<!-- Отзывы -->
 		<div class="content-reviews content-show">
-			<!-- Отзыв 1 -->
-			<div class="reviews-block">
-				<div class="reviews-block-header">
-					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо.
-					<div class="clear"></div>
-					<ul>
-						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
-					</ul>
-					<div class="triangle-down"></div>
-					<div class="reviews-photo reviews-photo-1"></div>
-				</div>
-				<h6>Хамитова Л. В.</h6>
-				<p>
-					Трехуровневый, бесшевный<br>натяжной потолок.
-				</p>
-				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
-				<h6><span>телефон.:</span> (347) 354-68-95</h6>
-			</div>
-			<!-- Отзыв 2 -->
-			<div class="reviews-block">
-				<div class="reviews-block-header">
-					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо. На следующее утро установили. Cпасибо.
-					<div class="clear"></div>
-					<ul>
-						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
-					</ul>
-					<div class="triangle-down"></div>
-					<div class="reviews-photo reviews-photo-1"></div>
-				</div>
-				<h6>Хамитова Л. В.</h6>
-				<p>
-					Трехуровневый, бесшевный<br>натяжной потолок.
-				</p>
-				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
-				<h6><span>телефон.:</span> (347) 354-68-95</h6>
-			</div>
-			<!-- Отзыв 3 -->
-			<div class="reviews-block">
-				<div class="reviews-block-header">
-					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо. На следующее утро установили. Cпасибо.
-					<div class="clear"></div>
-					<ul>
-						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
-					</ul>
-					<div class="triangle-down"></div>
-					<div class="reviews-photo reviews-photo-1"></div>
-				</div>
-				<h6>Хамитова Л. В.</h6>
-				<p>
-					Трехуровневый, бесшевный<br>натяжной потолок.
-				</p>
-				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
-				<h6><span>телефон.:</span> (347) 354-68-95</h6>
-			</div>
-			<!-- Отзыв 4 -->
-			<div class="reviews-block">
-				<div class="reviews-block-header">
-					Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Спасибо. Очень быстро отреагировали на заявку оставленную на сайте. Приехали предложили проект в течение того же дня. На следующее утро все установили. Cпасибо. На следующее утро установили. Cпасибо.
-					<div class="clear"></div>
-					<ul>
-						<li><img src="assets/img/reviews/room-1-1.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-2.png" alt="img"></li>
-						<li><img src="assets/img/reviews/room-1-3.png" alt="img"></li>
-					</ul>
-					<div class="triangle-down"></div>
-					<div class="reviews-photo reviews-photo-1"></div>
-				</div>
-				<h6>Хамитова Л. В.</h6>
-				<p>
-					Трехуровневый, бесшевный<br>натяжной потолок.
-				</p>
-				<h6><span>адрес:</span> Ленина, 15, кв. 23</h6>
-				<h6><span>телефон.:</span> (347) 354-68-95</h6>
-			</div>
-			<!-- === -->
+			<?php include_once("assets/scripts/php/comments.php") ?>
 			<div class="clear"></div>
 			<div class="cloud">
 				<a href="#" id="show-all-comments">Показать еще отзывы</a>
@@ -818,3 +738,32 @@
 <a class="fancybox" id="feedback-link" href="#feedback-popup">Ссылка на POPUP</a>
 <!-- Сам popup -->
 <div id="feedback-popup"></div>
+
+<!-- Ссылка на popup со списком городов -->
+<a class="fancybox" id="popup-link-3" href="#popup-3">Ссылка на POPUP</a>
+<!-- Сам popup -->
+<div id="popup-3">
+	<table>
+		<tr>
+			<td><a href="#">Набережные челны</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Альметьевск</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Уруссу</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Бавлы</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Октябрьский</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Туймазы</a></td>
+		</tr>
+		<tr>
+			<td><a href="#">Уфа</a></td>
+		</tr>
+	</table>
+</div>

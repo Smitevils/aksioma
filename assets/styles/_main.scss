@@ -251,19 +251,19 @@ main {}
 .content-reviews {
 	width: 100%; 
 	.reviews-block {
-		width: 300px; position: relative; margin: 0 15px 20px 15px;
+		width: 300px; position: relative; margin: 0 12px 20px 12px; font-size: 0;
 		background: url(../img/icons/reviews.png) repeat-x bottom center; padding-bottom: 10px;
-		display: none;
+		display: inline-block; display: none;
 		-webkit-transition: all 0.3s;
 		-o-transition: all 0.3s;
 		transition: all 0.3s;
 		animation:opacityes 1s;
 		-moz-animation:opacityes 1s; /* Firefox */
 		-webkit-animation:opacityes 1s; /* Safari и Chrome */
-		&:nth-child(2n) {float: right;}
-		&:nth-child(2n+1) {float: left;}
-		&:nth-child(1) {display: block;}
-		&:nth-child(2) {display: block;}
+		/*&:nth-child(2n) {float: right;}
+		&:nth-child(2n+1) {float: left;}*/
+		&:nth-child(1) {display: inline-block;}
+		&:nth-child(2) {display: inline-block;}
 	}
 	.reviews-block-header {
 		background: $font-color-6-5; position: relative;
@@ -499,7 +499,7 @@ main {}
 
 #CDT {display: none;}
 
-#popup-link-1, #popup-link-2, #feedback, #feedback-link {display: none;}
+#popup-link-1, #popup-link-2, #popup-link-3, #feedback, #feedback-link {display: none;}
 #popup-1, #popup-2, #feedback-popup {
 	display: none;
 	width: 240px;
@@ -514,4 +514,12 @@ main {}
 		border-radius: 3px;
 	}
 }
+#popup-3 {
+	display: none;
+	padding: 16px;
+	table tr td {padding: 6px 0; text-align: center;}
+}
 #feedback-popup {color: #ff66; font-size: 22px; line-height: 80px;}
+
+
+/* список городов */

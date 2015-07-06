@@ -94,7 +94,7 @@ $('#phone-7').mask('+7(000) 000-00-00');
 // Показываем все комменты
 
 $('#show-all-comments').click(function(event) {
-	$('.reviews-block').css('display', 'block');
+	$('.reviews-block').css('display', 'inline-block');
 	return false;
 });
 
