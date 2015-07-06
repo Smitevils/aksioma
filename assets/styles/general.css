@@ -964,6 +964,8 @@ header {
   #popup-3 table tr td {
     padding: 6px 0;
     text-align: center; }
+  #popup-3 a {
+    color: #08529d; }
 
 #feedback-popup {
   color: #ff66;

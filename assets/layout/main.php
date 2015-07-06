@@ -690,7 +690,7 @@
 			</div>
 			<div class="footer-content-block">
 				<h2>Полезное</h2>
-				<a href="#">Сертификаты</a><br>
+				<a href=".content-certificate">Сертификаты</a><br>
 				<a href="#">Госты</a><br>
 				<a href="#">Снипы</a><br>
 				<a href="#">СМИ о нас</a><br>
